@@ -21,7 +21,7 @@ int backGroundKNN()
     namedWindow("Frame");
     namedWindow("Background");
     VideoCapture capture;
-    capture.open(1);
+    capture.open(0);
 
     if(!capture.isOpened())
         return 1;
